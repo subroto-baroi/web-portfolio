@@ -1,12 +1,72 @@
-body{font-family: 'Crete Round', serif;
+body{
+    margin: 0px;
+    font-family: 'Crete Round', serif;
     font-family: 'Poller One', cursive;
     font-family: 'Slabo 27px', serif;}
 h1{font-size: 45px;}
-.color{ color: coral;}
+.color-text{ color: coral;}
 .half-width{
     width: 40%;
-    float: left;
+   float: left;
     margin-left: 5%;
     padding-left: 2%;
+    margin-top: 5px;
 }
-.half-width img{width:100%;}
+.half-width img{width:100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 120px;
+}
+p{
+    color: dimgray;
+}
+.linkedin{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    border: 2px solid #FFAD2B;
+    border-radius: 10px;
+   font-weight: 700;
+    padding: 10px 20px;
+    color: aliceblue;
+
+
+}
+h2{
+    font-size: 40px;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.box-shadow{
+    box-shadow: 10px 10px 40px gray;
+    height: 80%;
+    border-radius: 6px;
+    background-color: white;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 6px solid;
+    border-image:linear-gradient(180deg, lightsalmon , tomato);
+    border-image-slice: 1;
+}
+#border-style{
+    border-left: 6px solid;
+    border-image:linear-gradient(180deg, blue , cyan);
+    border-image-slice: 1;
+
+}
+footer{
+    text-align: center;
+    font-size: 15px;
+}
